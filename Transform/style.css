@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    height: 100vh;
+    width: 100%;
+    background-color: #f24444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outter{
+    width:400px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(174, 226, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**___________________________________________________________________________**/
+
+/** 1. scale = it is used to increase or decrease size of content with respect to their previous size **/
+
+
+/* .inner{
+    transform: scale(2);  it double the size of inner box from it's previous height and width
+} */
+
+/* .inner{
+    transform: scaleX(2); it will increase size in x-axis
+} */
+
+/* .inner{
+    transform: scaleY(0.5); it will decrease the size from original one in y-axis
+} */
+
+/* .inner{
+    transform: scale3d(2,2,2); for 3d change in size;
+} */
+
+
+/* ____________________________________________________________________________________________ */
+
+/* 2.Translate = The translate() CSS function repositions an element in the horizontal and/or vertical directions */
+
+/* .inner{
+    transform: translate(200px); 
+} */
+
+
+/* Single <length-percentage> values
+transform: translate(200px);
+transform: translate(50%);
+
+Double <length-percentage> values 
+transform: translate(100px, 200px);
+transform: translate(100px, 50%);
+transform: translate(30%, 200px);
+transform: translate(30%, 50%); */
+
+
+/* __________________________________________________________________________________________ */
+
+/* 3.Skew =The skew() CSS function defines a transformation that skews an element on the 2D plane. */
+
+/* .inner{
+    transform: skew(20deg);
+} */
+/* .inner{
+    transform: skew(20deg,40deg);
+} */
+
+
+/* ______________________________________________________________________________________________ */
+
+/* 4. Rotate = The rotate() CSS function defines a transformation that rotates an element around a fixed point on the 2D plane, without deforming it.  */
+
+/* .inner{
+    transform: rotate(45deg);
+} */
